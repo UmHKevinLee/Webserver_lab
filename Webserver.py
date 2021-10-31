@@ -6,7 +6,7 @@ serverPort= 6798
 serverSocket = socket(AF_INET, SOCK_STREAM)
 #Prepare a sever socket
 #Fill in start
-serverSocket.blind(('', serverPort))
+serverSocket.bind(('', serverPort))
 serverSocket.listen(1)
 #Fill in end
 while True:
